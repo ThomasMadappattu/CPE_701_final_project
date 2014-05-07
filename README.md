@@ -24,7 +24,7 @@ Usage
 =====================
 
 
-To start the program , type ./nfdapp <node_id> <itc_filename> to start
+To start the program , type ./nfdapp  "node_id" "itc_filename" to start
 the program.
 
 Commands Supported
@@ -36,23 +36,23 @@ threads so one should be able type into the shell. (its little inconvinient
 though).
 
 
-(1) start_sevice <max_connections> : starts the service wiht max connections
+(1) start_sevice "max_connections" : starts the service wiht max connections
 provided, stats the listening thread. Make sure that this is done as immediately
 as possible. (or increase the ROUTE_DELAY contanst) so that routing packets
 do not grab the socket before server does a bind.
 
 
-(2) download <from_node_id> <filename> : downloads filename from node_id
+(2) download "from_node_id" "filename" : downloads filename from node_id
 
 
 
-(3)set_garbler <loss> <corruption> : sets the garbler characteristics
+(3)set_garbler "loss" "corruption" : sets the garbler characteristics
 
 
 (4) route_table: dumps the route table to route_table.txt
 
 
-(5) link_down <node_id> : updates the routing table of current node ,
+(5) link_down "node_id" : updates the routing table of current node ,
 so that link is down
 
 

@@ -1,0 +1,148 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUF_MAX	./nfdapp.h	8;"	d
+CFG_P	./cfparser.h	/^typedef struct cfg_info *CFG_P; $/;"	t	typeref:struct:cfg_info
+CFG_T	./cfparser.h	/^typedef struct cfg_info CFG_T; $/;"	t	typeref:struct:cfg_info
+CID_HASH_VAL_T	./transportl.h	/^typedef struct cid_hash_value CID_HASH_VAL_T; $/;"	t	typeref:struct:cid_hash_value
+CID_OFFSET	./transportl.h	20;"	d
+CID_SIZE	./transportl.h	21;"	d
+CID_TABLE	./transportl.h	/^typedef struct cid_hast CID_TABLE; $/;"	t	typeref:struct:cid_hast
+CID_TABLE_P	./transportl.h	/^typedef struct cid_hast* CID_TABLE_P; $/;"	t	typeref:struct:cid_hast
+CONTROL_ACK	./transportl.h	28;"	d
+CONTROL_CLOSE	./transportl.h	29;"	d
+CONTROL_CONNECT	./transportl.h	27;"	d
+CONTROL_CONNECT_ACK	./transportl.h	31;"	d
+CONTROL_DATA	./transportl.h	30;"	d
+CONTROL_FIN	./transportl.h	32;"	d
+CONTROL_INFO_OFFSET	./transportl.h	14;"	d
+CONTROL_INFO_SIZE	./transportl.h	15;"	d
+DATA_LEN_OFFSET	./transportl.h	18;"	d
+DATA_LEN_SIZE	./transportl.h	19;"	d
+DEST_PORT_OFFSET	./transportl.h	10;"	d
+DEST_PORT_SIZE	./transportl.h	11;"	d
+DUMMY_SIZE	./transportl.h	34;"	d
+FALSE	./cfparser.h	/^     FALSE ,$/;"	e	enum:__anon1
+LINE_MAX_LEN	./cfparser.h	16;"	d
+LINK_CONTROL_OFFSET	./linkl.h	23;"	d
+LINK_CONTROL_SIZE	./linkl.h	24;"	d
+LINK_EXTRA_INFO	./linkl.h	26;"	d
+LINK_EXTRA_OFFSE	./linkl.h	25;"	d
+LINK_INFO_T	./linkl.h	/^typedef struct link_inf LINK_INFO_T; $/;"	t	typeref:struct:link_inf
+LINK_LAYER_HEADER_SIZE	./linkl.h	19;"	d
+LINK_LAYER_RECV_SIZE_MAX	./linkl.h	13;"	d
+LINK_PROF_OFFSET	./linkl.h	21;"	d
+LINK_PROTF_SIZE	./linkl.h	22;"	d
+MAX_CFG_ITEMS	./cfparser.h	14;"	d
+MAX_CONNECTIONS	./transportl.h	38;"	d
+MAX_NODES	./linkl.h	16;"	d
+NEIGHBOUR_SIZE	./cfparser.h	13;"	d
+NETWORK_LAYER_DEST_OFFSET	./netl.h	11;"	d
+NETWORK_LAYER_DEST_SIZE	./netl.h	12;"	d
+NETWORK_LAYER_HEADER_SIZE	./netl.h	8;"	d
+NETWORK_LAYER_SRC_OFFSET	./netl.h	9;"	d
+NETWORK_LAYER_SRC_SIZE	./netl.h	10;"	d
+NODE_MAX	./cfparser.h	12;"	d
+NOT_FOUND	./cfparser.h	15;"	d
+RETRY_COUNT	./transportl.h	50;"	d
+SENDER_ID_OFFSET	./transportl.h	22;"	d
+SENDER_ID_SIZE	./transportl.h	23;"	d
+SEND_BUFFER	./transportl.h	/^typedef struct snd_buf SEND_BUFFER; $/;"	t	typeref:struct:snd_buf
+SEQ_NO_OFFSET	./transportl.h	17;"	d
+SEQ_NO_SIZE	./transportl.h	16;"	d
+SRC_PORT_OFFSET	./transportl.h	8;"	d
+SRC_PORT_SIZE	./transportl.h	9;"	d
+STATE_CLOSE	./transportl.h	43;"	d
+STATE_CONNECTED	./transportl.h	44;"	d
+STATE_T	./stateh.h	/^typedef struct state_inf STATE_T; $/;"	t	typeref:struct:state_inf
+TRASPORT_LAYER_SIZE	./transportl.h	7;"	d
+TRUE	./cfparser.h	/^     TRUE $/;"	e	enum:__anon1
+WAIT_TIME_ACK	./transportl.h	49;"	d
+WIND_OFFSET	./transportl.h	12;"	d
+WIND_SIZE	./transportl.h	13;"	d
+_CFPARSER_H_	./cfparser.h	2;"	d
+_LINKL_H_	./linkl.h	2;"	d
+_NETL_H_	./netl.h	2;"	d
+_STATEH_H_	./stateh.h	2;"	d
+__NFDAPP_H_	./nfdapp.h	2;"	d
+__PACKET_H_	./packeth.h	2;"	d
+__TRANSPORTL_H_	./transportl.h	2;"	d
+allocate_sender	./transportl.h	/^extern int  allocate_sender();$/;"	p	signature:()
+buf_len	./transportl.h	/^    int buf_len; $/;"	m	struct:cid_hash_value	access:public
+cfg_info	./cfparser.h	/^struct cfg_info$/;"	s
+cfg_info::mtu_size	./cfparser.h	/^      int mtu_size;              $/;"	m	struct:cfg_info	access:public
+cfg_info::neighbours	./cfparser.h	/^      int neighbours[NEIGHBOUR_SIZE];    $/;"	m	struct:cfg_info	access:public
+cfg_info::node_id	./cfparser.h	/^      int node_id; $/;"	m	struct:cfg_info	access:public
+cfg_info::node_name	./cfparser.h	/^      char node_name[NODE_MAX];$/;"	m	struct:cfg_info	access:public
+cfg_info::total_neighbours	./cfparser.h	/^      int total_neighbours; $/;"	m	struct:cfg_info	access:public
+cfg_info::udp_port	./cfparser.h	/^      int udp_port;        $/;"	m	struct:cfg_info	access:public
+cid_hash_value	./transportl.h	/^struct cid_hash_value$/;"	s
+cid_hash_value::buf_len	./transportl.h	/^    int buf_len; $/;"	m	struct:cid_hash_value	access:public
+cid_hash_value::curr_state	./transportl.h	/^    STATE_T curr_state;  $/;"	m	struct:cid_hash_value	access:public
+cid_hash_value::data_buf	./transportl.h	/^    void *data_buf ;$/;"	m	struct:cid_hash_value	access:public
+cid_hash_value::node_id	./transportl.h	/^    int node_id; $/;"	m	struct:cid_hash_value	access:public
+cid_hash_value::sequence_number	./transportl.h	/^    int sequence_number; $/;"	m	struct:cid_hash_value	access:public
+cid_hast	./transportl.h	/^struct cid_hast$/;"	s
+cid_hast::cid_info	./transportl.h	/^    CID_HASH_VAL_T  cid_info [MAX_CONNECTIONS];$/;"	m	struct:cid_hast	access:public
+cid_info	./transportl.h	/^    CID_HASH_VAL_T  cid_info [MAX_CONNECTIONS];$/;"	m	struct:cid_hast	access:public
+connection_id	./transportl.h	/^     int connection_id;  $/;"	m	struct:snd_buf	access:public
+curr_state	./transportl.h	/^    STATE_T curr_state;  $/;"	m	struct:cid_hash_value	access:public
+current_nodes	./linkl.h	/^      int current_nodes[MAX_NODES]; $/;"	m	struct:link_inf	access:public
+data_buf	./transportl.h	/^    void *data_buf ;$/;"	m	struct:cid_hash_value	access:public
+deallocate_sender	./transportl.h	/^extern void  deallocate_sender();$/;"	p	signature:()
+duplicate_packet	./packeth.h	/^extern void *duplicate_packet(void *src_packet , void **dest_packet, int dup_len); $/;"	p	signature:(void *src_packet , void **dest_packet, int dup_len)
+exit_error	./cfparser.h	/^extern void exit_error(const char *message); $/;"	p	signature:(const char *message)
+expand_packet	./packeth.h	/^extern void *expand_packet( void **packet_buff , int buf_len ,int packet_size);$/;"	p	signature:( void **packet_buff , int buf_len ,int packet_size)
+find_node_by_id	./cfparser.h	/^extern int find_node_by_id( int node_id );$/;"	p	signature:( int node_id )
+find_node_by_name	./cfparser.h	/^extern int find_node_by_name(char *name);$/;"	p	signature:(char *name)
+get_packet_item	./packeth.h	/^extern void* get_packet_item( void * packet_buffer , int offset , int item_size); $/;"	p	signature:( void * packet_buffer , int offset , int item_size)
+get_state	./stateh.h	/^int get_state(STATE_T *state); $/;"	p	signature:(STATE_T *state)
+handle_app_buffer	./nfdapp.h	/^extern void handle_app_buffer(void *buffer , int cid); $/;"	p	signature:(void *buffer , int cid)
+handle_application_packet	./transportl.h	/^extern void handle_application_packet( void * buffer , int len , int dest_id);$/;"	p	signature:( void * buffer , int len , int dest_id)
+handle_network_layer_packet	./netl.h	/^extern  void handle_network_layer_packet(void *buffer); $/;"	p	signature:(void *buffer)
+handle_packet_transport	./netl.h	/^extern  void handle_packet_transport(void *buffer, int buf_len,int  dest_id);$/;"	p	signature:(void *buffer, int buf_len,int dest_id)
+handle_transport_layer_packet	./transportl.h	/^extern void handle_transport_layer_packet( void * buffer, int src_id , int dest_id);$/;"	p	signature:( void * buffer, int src_id , int dest_id)
+init_state	./stateh.h	/^void init_state( STATE_T *state);$/;"	p	signature:( STATE_T *state)
+init_transport_layer	./transportl.h	/^extern void init_transport_layer(); $/;"	p	signature:()
+is_current_node	./linkl.h	/^extern int is_current_node( int node_id );$/;"	p	signature:( int node_id )
+link_inf	./linkl.h	/^struct link_inf$/;"	s
+link_inf::current_nodes	./linkl.h	/^      int current_nodes[MAX_NODES]; $/;"	m	struct:link_inf	access:public
+link_inf::max_connections	./linkl.h	/^      int max_connections; $/;"	m	struct:link_inf	access:public
+link_inf::node_count	./linkl.h	/^      int node_count;      $/;"	m	struct:link_inf	access:public
+link_send_buffer	./linkl.h	/^extern void link_send_buffer(void  *buffer , int len , int node_id);$/;"	p	signature:(void *buffer , int len , int node_id)
+lock	./stateh.h	/^     sem_t lock;    $/;"	m	struct:state_inf	access:public
+max_connections	./linkl.h	/^      int max_connections; $/;"	m	struct:link_inf	access:public
+mtu_possible	./transportl.h	/^     int mtu_possible;  $/;"	m	struct:snd_buf	access:public
+mtu_size	./cfparser.h	/^      int mtu_size;              $/;"	m	struct:cfg_info	access:public
+neighbours	./cfparser.h	/^      int neighbours[NEIGHBOUR_SIZE];    $/;"	m	struct:cfg_info	access:public
+nfd_buffer_receved	./nfdapp.h	/^extern void nfd_buffer_receved(void *buffer , int len);$/;"	p	signature:(void *buffer , int len)
+nfd_send_buffer_transport	./nfdapp.h	/^extern void nfd_send_buffer_transport(void *buffer , int len, int dest_id);$/;"	p	signature:(void *buffer , int len, int dest_id)
+node_count	./linkl.h	/^      int node_count;      $/;"	m	struct:link_inf	access:public
+node_id	./cfparser.h	/^      int node_id; $/;"	m	struct:cfg_info	access:public
+node_id	./transportl.h	/^    int node_id; $/;"	m	struct:cid_hash_value	access:public
+node_name	./cfparser.h	/^      char node_name[NODE_MAX];$/;"	m	struct:cfg_info	access:public
+pack_into_packet	./packeth.h	/^extern void pack_into_packet( void * packet_buffer , int offset, void *data, int data_size); $/;"	p	signature:( void * packet_buffer , int offset, void *data, int data_size)
+read_config_file	./cfparser.h	/^extern  int read_config_file(char * file); $/;"	p	signature:(char * file)
+response_code	./transportl.h	/^     int response_code;$/;"	m	struct:snd_buf	access:public
+send_buffer_transport	./nfdapp.h	/^extern void send_buffer_transport(void *buffer , int len , int dest_id); $/;"	p	signature:(void *buffer , int len , int dest_id)
+send_packet_link	./netl.h	/^extern  void send_packet_link(void *buffer, int buf_len);$/;"	p	signature:(void *buffer, int buf_len)
+send_packet_to_network_layer	./linkl.h	/^extern void send_packet_to_network_layer(void *packet);$/;"	p	signature:(void *packet)
+send_to_network_layer	./transportl.h	/^extern void send_to_network_layer( void *buffer , int bufflen);$/;"	p	signature:( void *buffer , int bufflen)
+seq_no	./transportl.h	/^     int seq_no;$/;"	m	struct:snd_buf	access:public
+sequence_number	./transportl.h	/^    int sequence_number; $/;"	m	struct:cid_hash_value	access:public
+server_thread	./linkl.h	/^extern void *server_thread(void *arg);$/;"	p	signature:(void *arg)
+set_state	./stateh.h	/^void set_state(STATE_T *state , int value);$/;"	p	signature:(STATE_T *state , int value)
+snd_buf	./transportl.h	/^struct snd_buf$/;"	s
+snd_buf::connection_id	./transportl.h	/^     int connection_id;  $/;"	m	struct:snd_buf	access:public
+snd_buf::mtu_possible	./transportl.h	/^     int mtu_possible;  $/;"	m	struct:snd_buf	access:public
+snd_buf::response_code	./transportl.h	/^     int response_code;$/;"	m	struct:snd_buf	access:public
+snd_buf::seq_no	./transportl.h	/^     int seq_no;$/;"	m	struct:snd_buf	access:public
+state	./stateh.h	/^     int state; $/;"	m	struct:state_inf	access:public
+state_inf	./stateh.h	/^struct state_inf$/;"	s
+state_inf::lock	./stateh.h	/^     sem_t lock;    $/;"	m	struct:state_inf	access:public
+state_inf::state	./stateh.h	/^     int state; $/;"	m	struct:state_inf	access:public
+total_neighbours	./cfparser.h	/^      int total_neighbours; $/;"	m	struct:cfg_info	access:public
+udp_port	./cfparser.h	/^      int udp_port;        $/;"	m	struct:cfg_info	access:public

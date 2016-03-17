@@ -18,7 +18,10 @@ age manger (pkgtool). The entire thing was written in C using the vim editor.
 After mhash library is installed type make to build the system
 
 
-
+Notes
+===================
+  * I removed many calls to free(), beware there are memory leaks.  There is a bug somewhere - I just masked it out. 
+  * Set the socket options to reuse the socket ( in server code).  Too lazy to do it now, but you figure it out okay
 
 Usage
 =====================
